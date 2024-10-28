@@ -44,7 +44,7 @@ public class MyService extends Service {
                         .bigText("Пыяла\nАигел"))
                 .setContentTitle("Русская музыка");
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
-        NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Kochaliev R. R.", importance);
+        NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Sidorkin I. V.", importance);
         channel.setDescription("MIREA Channel");
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
         notificationManager.createNotificationChannel(channel);

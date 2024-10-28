@@ -39,7 +39,7 @@ public class PlayerService extends Service {
                         .bigText("Пыяла\nАигел"))
                 .setContentTitle("Music Player");
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
-        NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Student Kochaliev R. R. Notification", importance);
+        NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Student Sidorkin I.V. Notification", importance);
         channel.setDescription("MIREA Channel");
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
         notificationManager.createNotificationChannel(channel);

@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 // [END initialize_auth]
 
-        binding.Email.setText("rkochaliev@gmail.com");
-        binding.Password.setText("Rasim675");
+        binding.Email.setText("sidorkin@gmail.com");
+        binding.Password.setText("Sidorkin123");
         binding.buttonSignOut.setVisibility(View.GONE);
         binding.buttonVerEmail.setVisibility(View.GONE);
 
